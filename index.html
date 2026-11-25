@@ -18,7 +18,7 @@
         }
 
         header {
-            background: linear-gradient(135deg, #5C0119 0%, #7A0123 60%, #93012A 100%);
+            background: #9F1B32;
             color: white;
             padding: 30px 20px;
             text-align: center;
@@ -70,7 +70,7 @@
         }
 
         .progress-step.active {
-            background: #93012A;
+            background: #9F1B32;
             color: white;
         }
 
@@ -107,7 +107,7 @@
             display: block;
             margin-bottom: 8px;
             font-weight: 500;
-            color: #93012A;
+            color: #9F1B32;
         }
 
         input[type="text"],
@@ -128,8 +128,8 @@
         input:focus,
         select:focus {
             outline: none;
-            border-color: #93012A;
-            box-shadow: 0 0 5px rgba(147, 1, 42, 0.3);
+            border-color: #9F1B32;
+            box-shadow: 0 0 5px rgba(159, 27, 50, 0.3);
         }
 
         .radio-group,
@@ -165,7 +165,7 @@
             background: none;
             border: none;
             cursor: pointer;
-            color: #93012A;
+            color: #9F1B32;
             font-size: 14px;
         }
 
@@ -187,13 +187,13 @@
         }
 
         .btn-primary {
-            background: #93012A;
+            background: #9F1B32;
             color: white;
         }
 
         .btn-primary:hover {
-            background: #6E0120;
-            box-shadow: 0 4px 12px rgba(147, 1, 42, 0.3);
+            background: #84152A;
+            box-shadow: 0 4px 12px rgba(159, 27, 50, 0.3);
         }
 
         .btn-primary:disabled {
@@ -232,9 +232,9 @@
         }
 
         .accordion-header.active {
-            background: #93012A;
+            background: #9F1B32;
             color: white;
-            border-bottom: 1px solid #93012A;
+            border-bottom: 1px solid #9F1B32;
         }
 
         .accordion-content {
@@ -289,7 +289,7 @@
         .document-text {
             background: #f9f9f9;
             padding: 15px;
-            border-left: 4px solid #93012A;
+            border-left: 4px solid #9F1B32;
             margin: 15px 0;
             line-height: 1.6;
             white-space: pre-wrap;
@@ -311,7 +311,7 @@
         .signature-label {
             font-weight: 600;
             margin-bottom: 10px;
-            color: #93012A;
+            color: #9F1B32;
         }
 
         canvas {
@@ -365,7 +365,7 @@
 
         .cheque-diagram {
             background: #f9f9f9;
-            border: 2px solid #93012A;
+            border: 2px solid #9F1B32;
             padding: 20px;
             border-radius: 4px;
             margin: 20px 0;
@@ -418,7 +418,7 @@
         }
 
         footer {
-            background: #6E0120;
+            background: #84152A;
             color: #ecf0f1;
             text-align: center;
             padding: 20px;
@@ -432,14 +432,14 @@
         .review-item {
             padding: 15px;
             background: #f9f9f9;
-            border-left: 4px solid #93012A;
+            border-left: 4px solid #9F1B32;
             margin-bottom: 15px;
             border-radius: 4px;
         }
 
         .review-label {
             font-weight: 600;
-            color: #93012A;
+            color: #9F1B32;
             margin-bottom: 5px;
         }
 
@@ -530,7 +530,7 @@
         #accessGate {
             position: fixed;
             inset: 0;
-            background: linear-gradient(135deg, #5C0119 0%, #7A0123 60%, #93012A 100%);
+            background: #9F1B32;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -573,13 +573,13 @@
         }
         #accessGate input[type="password"]:focus {
             outline: none;
-            border-color: #93012A;
-            box-shadow: 0 0 0 3px rgba(147,1,42,0.15);
+            border-color: #9F1B32;
+            box-shadow: 0 0 0 3px rgba(159,27,50,0.15);
         }
         #accessGate .gate-btn {
             width: 100%;
             padding: 13px;
-            background: #93012A;
+            background: #9F1B32;
             color: #fff;
             font-size: 15px;
             font-weight: 600;
@@ -588,7 +588,7 @@
             cursor: pointer;
             transition: background 0.2s;
         }
-        #accessGate .gate-btn:hover { background: #6E0120; }
+        #accessGate .gate-btn:hover { background: #84152A; }
         #accessGate .gate-error {
             color: #c0392b;
             font-size: 13px;
@@ -1649,7 +1649,7 @@
                         ← Go Back &amp; Complete
                     </button>
                     <button id="warningContinueBtn"
-                        style="padding:12px 22px;background:#93012A;color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:15px;font-weight:600;width:100%;">
+                        style="padding:12px 22px;background:#9F1B32;color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:15px;font-weight:600;width:100%;">
                         Continue Anyway →
                     </button>
                 </div>
@@ -1985,7 +1985,7 @@
                 <div style="margin:16px 0;">
                     <iframe id="${doc.id}_pdfViewer" src="" style="width:100%;height:700px;border:1.5px solid #ccc;border-radius:8px;background:#e9e9e9;" loading="lazy"></iframe>
                     <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap;">
-                        <a id="${doc.id}_pdfDownload" href="${doc.pdfPath}" download="${fileName}" style="display:inline-block;padding:8px 16px;background:#93012A;color:#fff;border-radius:6px;font-size:13px;text-decoration:none;font-weight:600;cursor:pointer;">Download PDF</a>
+                        <a id="${doc.id}_pdfDownload" href="${doc.pdfPath}" download="${fileName}" style="display:inline-block;padding:8px 16px;background:#9F1B32;color:#fff;border-radius:6px;font-size:13px;text-decoration:none;font-weight:600;cursor:pointer;">Download PDF</a>
                         <span style="font-size:12px;color:#999;align-self:center;">Scroll through the document above before signing.</span>
                     </div>
                 </div>
@@ -2011,7 +2011,7 @@
                 <div style="margin:16px 0;">
                     <iframe id="${doc.id}_pdfViewer" src="" style="width:100%;height:600px;border:1.5px solid #ccc;border-radius:8px;background:#e9e9e9;" loading="lazy"></iframe>
                     <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap;">
-                        <a id="${doc.id}_pdfDownload" download="TD1-Personal-Tax-Credits-Return-2021.pdf" style="display:inline-block;padding:8px 16px;background:#93012A;color:#fff;border-radius:6px;font-size:13px;text-decoration:none;font-weight:600;cursor:pointer;">Download TD1 PDF</a>
+                        <a id="${doc.id}_pdfDownload" download="TD1-Personal-Tax-Credits-Return-2021.pdf" style="display:inline-block;padding:8px 16px;background:#9F1B32;color:#fff;border-radius:6px;font-size:13px;text-decoration:none;font-weight:600;cursor:pointer;">Download TD1 PDF</a>
                         <span style="font-size:12px;color:#999;align-self:center;">Print this form, fill it out, and submit the completed copy to your employer.</span>
                     </div>
                 </div>
@@ -2037,7 +2037,7 @@
             doc.subSections.forEach(sub => {
                 html += `
                     <div style="margin-bottom:20px;border:1px solid #ddd;border-radius:4px;overflow:hidden;">
-                        <div class="sub-acc-hdr" style="background:#f9f9f9;padding:12px;cursor:pointer;font-weight:600;color:#93012A;display:flex;justify-content:space-between;align-items:center;" onclick="toggleSubAccordion(this)">
+                        <div class="sub-acc-hdr" style="background:#f9f9f9;padding:12px;cursor:pointer;font-weight:600;color:#9F1B32;display:flex;justify-content:space-between;align-items:center;" onclick="toggleSubAccordion(this)">
                             <span>${sub.title}</span>
                             <span id="${sub.id}_badge" style="background:#f39c12;color:#fff;padding:4px 10px;border-radius:12px;font-size:11px;font-weight:700;white-space:nowrap;text-transform:uppercase;flex-shrink:0;">Pending</span>
                         </div>
@@ -2595,7 +2595,7 @@
                 <strong>Important:</strong> Please review all information carefully before submitting. You will not be able to edit this information once submitted.
             </div>
 
-            <h3 style="color: #93012A; margin: 30px 0 15px 0;">Personal Information</h3>
+            <h3 style="color: #9F1B32; margin: 30px 0 15px 0;">Personal Information</h3>
             <div class="review-item">
                 <div class="review-label">Name</div>
                 <div class="review-value">${formData.step1.fullName || 'Not provided'}</div>
@@ -2617,7 +2617,7 @@
                 <div class="review-value">${sinMasked}</div>
             </div>
 
-            <h3 style="color: #93012A; margin: 30px 0 15px 0;">Banking Information</h3>
+            <h3 style="color: #9F1B32; margin: 30px 0 15px 0;">Banking Information</h3>
             <div class="review-item">
                 <div class="review-label">Financial Institution</div>
                 <div class="review-value">${formData.step2.institutionName || 'Not provided'}</div>
@@ -2627,7 +2627,7 @@
                 <div class="review-value">${acctMasked}</div>
             </div>
 
-            <h3 style="color: #93012A; margin: 30px 0 15px 0;">Documents Status</h3>
+            <h3 style="color: #9F1B32; margin: 30px 0 15px 0;">Documents Status</h3>
             <div style="margin-bottom: 20px;">
                 <strong>Signed Documents: ${documents.filter(d => d.status === 'signed' || (d.readOnly && d.status === 'read')).length} of ${documents.length}</strong>
             </div>
@@ -2741,9 +2741,9 @@
         }).join('');
         return '<!DOCTYPE html><html><head><meta charset="UTF-8"><style>'
             + 'body{font-family:Arial,sans-serif;max-width:700px;margin:40px auto;color:#333;font-size:13px;}'
-            + 'h1{color:#5C0119;font-size:20px;border-bottom:3px solid #93012A;padding-bottom:10px;margin-bottom:20px;}'
-            + 'h2{color:#93012A;font-size:14px;margin:24px 0 10px;border-bottom:1px solid #ddd;padding-bottom:4px;}'
-            + '.hdr{text-align:center;margin-bottom:30px;border-bottom:2px solid #5C0119;padding-bottom:16px;}'
+            + 'h1{color:#6B1022;font-size:20px;border-bottom:3px solid #9F1B32;padding-bottom:10px;margin-bottom:20px;}'
+            + 'h2{color:#9F1B32;font-size:14px;margin:24px 0 10px;border-bottom:1px solid #ddd;padding-bottom:4px;}'
+            + '.hdr{text-align:center;margin-bottom:30px;border-bottom:2px solid #6B1022;padding-bottom:16px;}'
             + 'table{width:100%;border-collapse:collapse;margin-bottom:10px;}'
             + 'td{padding:7px 10px;vertical-align:top;}'
             + '.lbl{font-weight:bold;color:#555;width:40%;}'
@@ -2908,7 +2908,7 @@
                 <div style="width:72px;height:72px;border-radius:50%;background:#38a169;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
                 </div>
-                <h2 style="color:#6E0120;margin-bottom:8px;">Onboarding Complete!</h2>
+                <h2 style="color:#84152A;margin-bottom:8px;">Onboarding Complete!</h2>
                 <p style="color:#555;font-size:.95rem;">Welcome to Pret A Manger (Dhanoa Group)!</p>
                 <p style="color:#718096;font-size:.88rem;margin-top:8px;">Your onboarding documents have been submitted successfully.</p>
                 <p style="margin-top:12px;font-size:14px;color:#666;">A confirmation will be sent to <strong>${formData.step1.email || 'your email'}</strong></p>
